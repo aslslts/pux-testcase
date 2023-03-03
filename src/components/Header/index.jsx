@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import "./Header.css";
+import SearchBar from "./SearchBar";
 
 function Header() {
   return (
-    <div>Header</div>
-  )
+    <div className="header">
+      <div className="header-left">
+        <SearchBar />
+      </div>
+      <div className="header-right"></div>
+    </div>
+  );
 }
 
-export default Header
+export default Header;

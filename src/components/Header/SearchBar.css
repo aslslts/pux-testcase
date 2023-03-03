@@ -1,0 +1,39 @@
+.search-bar-wrapper {
+  position: relative;
+}
+
+.search-bar {
+  width: 821px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 1px 0px #000000;
+  border-radius: 8px;
+}
+.search-bar::placeholder {
+  color: #999999;
+  padding-left: 16px;
+  padding-top: 15.5px;
+  padding-bottom: 15.5px;
+}
+.icons-line {
+  height: 12px;
+  width: 1px;
+  background-color: #212121;
+}
+.icons {
+  position: absolute;
+  right: 22px;
+  top: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.icons-search {
+  margin-right: 22px;
+  cursor: pointer;
+}
+.icons-mic {
+  margin-left: 22px;
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.header {
+  height: 162px;
+  background: linear-gradient(269.59deg, #5252e4 6.11%, #004e92 95.35%);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 24px;
+}
+.header-left {
+  width: 821px;
+  height: 105px;
+  padding-top: 24px;
+  padding-left: 27px;
+}
