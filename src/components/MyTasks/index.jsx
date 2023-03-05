@@ -8,7 +8,7 @@ import "./MyTasks.css";
 function MyTasks() {
   return (
     <div className="my-tasks">
-      <p className="my-tasks-text">Görevlerim</p>
+      <div className="my-tasks-text">Görevlerim</div>
 
       <StatusTag icon={ErrorIcon} count={"5"} text={"Geç"} />
       <StatusTag icon={InfoIcon} count={"12"} text={"Devam Eden"} />

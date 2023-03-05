@@ -1,6 +1,8 @@
 .my-tasks {
   display: flex;
   align-items: center;
+  margin-top: 34.5px;
+  margin-bottom: 27.5px;
 }
 .my-tasks-text {
   font-family: "Lato";
