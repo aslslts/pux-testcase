@@ -1,0 +1,22 @@
+.task-container {
+  display: grid;
+  grid-template-columns: 268px 204px 93px 136px 98px 112px 75px 144px;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 24px;
+  height: 50px;
+  margin-top: 24px;
+  background: #ffffff;
+  border: 1px solid #724cf9;
+  box-shadow: 0px 4px 20px rgba(125, 125, 125, 0.15);
+  border-radius: 16px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  margin-left: 19px;
+}
+.project-name {
+  margin-left: 24px;
+}
+.project-name input {
+  margin-right: 24px;
+}
