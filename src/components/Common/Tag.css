@@ -1,0 +1,24 @@
+.tag {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #212121;
+  border-radius: 16px;
+  padding: 8px 12px;
+  height: fit-content;
+}
+
+.primary {
+  background: #ffffff;
+  border: 0.5px solid #bdbdbd;
+}
+.orange {
+  background: transparent;
+  border: 1px solid #f86624;
+}
+.blue {
+  background: transparent;
+  border: 1px solid #1c8cb5;
+}

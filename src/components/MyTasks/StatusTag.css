@@ -1,0 +1,25 @@
+.status-tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d5c9fd;
+  border-radius: 8px;
+  width: 150px;
+  height: 33px;
+  gap: 10px;
+  margin-right: 8px;
+}
+.status-tag-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+.status-tag-count {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}

@@ -3,10 +3,40 @@
   background: linear-gradient(269.59deg, #5252e4 6.11%, #004e92 95.35%);
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
   border-radius: 24px;
+  display: flex;
 }
 .header-left {
   width: 821px;
   height: 105px;
   padding-top: 24px;
   padding-left: 27px;
+}
+.header-right {
+  min-width: 268px;
+  width: 100%;
+  margin-left: 22px;
+  display: flex;
+  margin-top: 24px;
+  justify-content: space-around;
+  height: 52px;
+  align-items: center;
+}
+.header-line {
+  width: 1px;
+  height: 12px;
+  background-color: #fff;
+}
+.header-left-bottom {
+  display: flex;
+  margin-top: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
 }
