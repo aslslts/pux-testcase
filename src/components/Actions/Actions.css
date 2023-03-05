@@ -1,0 +1,11 @@
+.actions {
+  display: grid;
+  align-items: center;
+  grid-auto-flow: column;
+  grid-template-columns: 342px 103px 1fr;
+}
+
+.actions-right {
+  display: flex;
+  justify-self: flex-end;
+}

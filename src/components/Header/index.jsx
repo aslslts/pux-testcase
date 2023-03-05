@@ -26,6 +26,7 @@ const HeaderData = [
     icon: Users,
   },
 ];
+
 function Header() {
   return (
     <div className="header">
@@ -48,8 +49,12 @@ function Header() {
         {HeaderData.map((item, index) => {
           return (
             <>
-              <HeaderButton key={index} item={item} index={index} />
-              {index === 1 && <div className="header-line"></div>}
+              <HeaderButton
+                key={index + Math.random()}
+                item={item}
+                index={index}
+              />
+              {index === 1 && <div key="line" className="header-line"></div>}
             </>
           );
         })}
