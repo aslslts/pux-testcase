@@ -11,37 +11,30 @@ export const SidebarData = [
   {
     title: "Görevlerim",
     icon: TaskSolid,
-    cName: "sidebar-text",
   },
   {
     title: "Projelerim",
     icon: Folder,
-    cName: "sidebar-text",
   },
   {
     title: "Firmalar",
     icon: FirmBag,
-    cName: "sidebar-text",
   },
   {
     title: "Takvim",
     icon: Calendar,
-    cName: "sidebar-text",
   },
   {
     title: "Kişiler",
     icon: Users,
-    cName: "sidebar-text",
   },
   {
     title: "Raporlar",
     icon: Report,
-    cName: "sidebar-text",
   },
   {
     title: "Otomasyon",
     icon: Automation,
-    cName: "sidebar-text",
   },
 ];
 export default SidebarData;

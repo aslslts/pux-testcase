@@ -3,25 +3,19 @@ import { useState } from "react";
 import SidebarData from "./SidebarData";
 import "./SidebarItem.css";
 
-function SidebarItem() {
-  const [sidebar, setSidebar] = useState(false);
-
-  const showSidebar = () => setSidebar(!sidebar);
+function SidebarItem({ item, index, active, setActive }) {
+  function handleSidebarItemClick(index) {
+    setActive(index);
+  }
   return (
     <>
-      <div className="sidebar-menu"></div>
-
-      <ul className="sidebar-menu-items" onClick={showSidebar}>
-        {/* <li className="sidebar-toggle"></li> */}
-        {SidebarData.map((item, index) => {
-          return (
-            <li key={index} className={item.cName}>
-              <img src={item.icon} />
-              <span className="sidebar-title">{item.title}</span>
-            </li>
-          );
-        })}
-      </ul>
+      <li
+        className={`sidebar-item ${active === index && "active"}`}
+        onClick={() => handleSidebarItemClick(index)}
+      >
+        <img src={item.icon} />
+        <span className="sidebar-title">{item.title}</span>
+      </li>
     </>
   );
 }

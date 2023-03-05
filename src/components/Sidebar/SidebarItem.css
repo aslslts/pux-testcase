@@ -6,25 +6,24 @@
 .sidebar-title {
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 500;
-  line-height: 22px;
+  font-weight: 700;
   letter-spacing: 0em;
   text-align: left;
   color: #ffffff;
   margin-left: 14px;
-}
-.sidebar-text {
-  width: 124px;
-  height: 24px;
-  margin-bottom: 24px;
-  font-family: "Lato";
   font-style: normal;
-  font-weight: 500;
-  text-align: left;
-  font-size: 16px;
   line-height: 135%;
 }
 
-span {
-  font-family: "Lato";
+.sidebar-item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  padding: 7px;
+}
+
+.active {
+  background: rgba(238, 226, 244, 0.2);
+  border-radius: 8px;
 }
