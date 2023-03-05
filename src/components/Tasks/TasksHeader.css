@@ -1,0 +1,82 @@
+.tasks-header {
+  display: grid;
+  grid-template-columns: 244px 204px 93px 136px 98px 112px 75px 144px;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 24px;
+  margin-left: 43px;
+}
+.tasks-header-line {
+  width: 1px;
+  height: 24px;
+  background: #bdbdbd;
+}
+.tasks-header .project {
+  display: flex;
+
+  align-items: center;
+}
+.tasks-header .task {
+  display: flex;
+
+  align-items: center;
+}
+.tasks-header .category {
+  display: flex;
+
+  align-items: center;
+}
+.tasks-header .task-tag {
+  display: flex;
+
+  align-items: center;
+}
+
+.tasks-header .users {
+  display: flex;
+
+  align-items: center;
+}
+.tasks-header .progress {
+  display: flex;
+
+  align-items: center;
+}
+.tasks-header .rename-img {
+  display: flex;
+
+  align-items: center;
+}
+.tasks-header span {
+  flex-grow: 1;
+}
+.date span {
+  flex-grow: 0;
+}
+
+.priority span {
+  flex-grow: 0;
+}
+
+.date {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+}
+
+.priority {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+}
+
+.date .tasks-header-line {
+  justify-self: flex-end;
+}
+
+.priority .tasks-header-line {
+  justify-self: flex-end;
+}
+.project input {
+  margin-right: 24px;
+}
