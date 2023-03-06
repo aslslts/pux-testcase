@@ -7,10 +7,11 @@ import MyTasks from "./components/MyTasks";
 import Sidebar from "./components/Sidebar";
 import TaskDetails from "./components/TaskDetails";
 import Tasks from "./components/Tasks";
-import TaskStatusNormal from "./assets/task-icons/task-status-normal.svg";
+import TaskStatusNormal from "./assets/icons/taskStatus-normal.svg";
 import TaskStatusAcil from "./assets/task-icons/task-status-acil.svg";
-import TaskStatusCokAcil from "./assets/task-icons/task-status-cok-acil.svg";
+import TaskStatusCokAcil from "./assets/icons/taskStatus-cok-acil.svg";
 import UserImage from "./assets/icons/avatar.svg";
+import ProgressIcon from "./assets/icons/percentage.svg";
 
 const TaskData = [
   {
@@ -20,7 +21,7 @@ const TaskData = [
     tagName: "Etiket-1,Etiket-2, Etiket-3, Etiket-4",
     date: "22 Mayıs Çar.-23 Ocak Perş.",
     priority: TaskStatusAcil,
-    progressValue: "adasfa",
+    progressValue: ProgressIcon,
     userImage: UserImage,
   },
   {
@@ -30,7 +31,7 @@ const TaskData = [
     tagName: "Etiket-1,Etiket-2, Etiket-3, Etiket-4",
     date: "22 Mayıs Çar.-23 Ocak Perş.",
     priority: TaskStatusNormal,
-    progressValue: "adasfa",
+    progressValue: ProgressIcon,
     userImage: UserImage,
   },
   {
@@ -40,7 +41,7 @@ const TaskData = [
     tagName: "Etiket-1,Etiket-2, Etiket-3, Etiket-4",
     date: "22 Mayıs Çar.-23 Ocak Perş.",
     priority: TaskStatusCokAcil,
-    progressValue: "adasfa",
+    progressValue: ProgressIcon,
     userImage: UserImage,
   },
 ];

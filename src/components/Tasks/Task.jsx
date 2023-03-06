@@ -38,7 +38,7 @@ function Task({
         <img src={userImage} />
       </div>
       <div className="progress-value">
-        <span>{progressValue}</span>
+        <img src={progressValue} />
       </div>
       <div className="rename-image">
         <img src={MoreIcon} />
