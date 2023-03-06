@@ -1,0 +1,21 @@
+.detail-tabs-button {
+  width: 86px;
+  color: #212121;
+  cursor: pointer;
+  padding-inline: 8.5px;
+}
+
+.detail-tabs-button-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+.detail-tabs-button-active {
+  background: #eeeafe;
+  box-shadow: 0px 2px 6px rgba(146, 146, 157, 0.07);
+  border-radius: 8px;
+  color: #724cf9;
+}

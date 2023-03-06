@@ -11,9 +11,10 @@ function Task({
   priority,
   userImage,
   progressValue,
+  onClick,
 }) {
   return (
-    <div className="task-container">
+    <div className="task-container" onClick={onClick}>
       <div className="project-name">
         <input type="checkbox" />
         <span>{projectName}</span>

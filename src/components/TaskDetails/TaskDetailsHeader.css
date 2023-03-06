@@ -1,0 +1,78 @@
+.task-details-header {
+  position: relative;
+  height: 110px;
+  background: linear-gradient(90deg, #4776e6 0%, #8e54e9 100%);
+  box-shadow: 0px 4px 10px rgba(78, 78, 78, 0.15);
+  border-radius: 24px 24px 0px 0px;
+  display: flex;
+  justify-content: center;
+}
+.task-header-content {
+  width: 696px;
+  display: flex;
+  justify-content: space-between;
+}
+.task-header-text {
+  display: flex;
+  flex-direction: column;
+}
+.task-header-text1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #fafafa;
+  margin-top: 16px;
+}
+.task-header-text2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 135%;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.task-header-text3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.task-header-edit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 32px;
+  gap: 8px;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-top: 16px;
+  cursor: pointer;
+  padding-inline: 16px;
+}
+.task-header-edit-text {
+  font-family: "Assistant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #724cf9;
+  width: 54px;
+  height: 21px;
+}
+.task-close-icon {
+  position: absolute;
+  top: 18px;
+  right: 26px;
+  cursor: pointer;
+}

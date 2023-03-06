@@ -1,0 +1,7 @@
+.detail-tabs-container-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  margin-top: 16px;
+}
