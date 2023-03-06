@@ -1,0 +1,47 @@
+.footer {
+  position: fixed;
+  width: 1440px;
+  height: 40px;
+  right: 0px;
+  bottom: 0px;
+  background: rgba(255, 255, 255, 0.01);
+  backdrop-filter: blur(2.5px);
+}
+.footer-tabs {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-tab1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  gap: 16px;
+  background: #724cf9;
+  border-radius: 8px 8px 0px 0px;
+}
+.footer-tab2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  margin-left: 8px;
+  margin-right: 95px;
+  gap: 16px;
+  background: #724cf9;
+  border-radius: 8px 8px 0px 0px;
+}
+.footer-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  margin-right: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
