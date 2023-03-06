@@ -16,3 +16,13 @@
 .tasks-top-text img {
   margin-left: 8px;
 }
+.task-name {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #212121;
+}

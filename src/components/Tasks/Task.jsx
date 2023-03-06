@@ -31,7 +31,7 @@ function Task({
         <span>{date}</span>
       </div>
       <div className="priority-value">
-        <span>{priority}</span>
+        <img src={priority} />
       </div>
       <div className="user-image">
         <img src={userImage} />

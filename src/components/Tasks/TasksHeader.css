@@ -5,6 +5,20 @@
   align-items: center;
   gap: 24px;
   margin-left: 43px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 135%;
+  color: #212121;
+}
+.task-container {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #212121;
 }
 .tasks-header-line {
   width: 1px;
