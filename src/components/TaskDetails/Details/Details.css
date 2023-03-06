@@ -2,3 +2,8 @@
   height: 831px;
   background: #ffffff;
 }
+.details-dashboard {
+  display: grid;
+  grid-template-columns: 323px 1fr 328px;
+  gap: 24px;
+}
