@@ -1,0 +1,36 @@
+.sub-task-container {
+  display: flex;
+  background: #ffffff;
+  border: 0.5px solid #bdbdbd;
+  border-radius: 8px;
+}
+
+.sub-task-header {
+}
+.sub-task-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 135%;
+  color: #000000;
+}
+
+.sub-task-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000000;
+}
+.sub-task-category {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000000;
+}
+.task-up-right-icon {
+}
