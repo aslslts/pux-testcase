@@ -21,6 +21,7 @@
   gap: 16px;
   background: #724cf9;
   border-radius: 8px 8px 0px 0px;
+  cursor: pointer;
 }
 .footer-tab2 {
   display: flex;
@@ -33,6 +34,7 @@
   gap: 16px;
   background: #724cf9;
   border-radius: 8px 8px 0px 0px;
+  cursor: pointer;
 }
 .footer-text {
   font-family: "Lato";
