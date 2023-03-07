@@ -1,1 +1,64 @@
+.sub-tasks-container {
+  margin-left: 20px;
+  margin-top: 9px;
+  margin-right: 29px;
+}
 
+.sub-tasks-dashboard {
+  display: flex;
+  margin-top: 23px;
+}
+.sub-tasks {
+  display: flex;
+  justify-content: space-between;
+}
+.sub-tasks-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #212121;
+}
+.sub-tasks-add {
+  font-family: "Assistant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+.sub-tasks-add-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+  background: #4224f5;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.sub-tasks-scroll-bar {
+  width: 10px;
+  height: 393px;
+  left: 20px;
+  top: 208px;
+  color: rgba(135, 103, 250, 1);
+  margin-top: -33px;
+}
+.see-all-button {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  color: #6a45f8;
+}

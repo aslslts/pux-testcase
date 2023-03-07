@@ -31,14 +31,14 @@ function SubTasks() {
   return (
     <div className="sub-tasks-container">
       <div className="sub-tasks">
-        <span>Alt Görevler</span>
+        <span className="sub-tasks-text">Alt Görevler</span>
         <div className="sub-tasks-add-button">
           <img src={TaskPlusIcon} />
           <span className="sub-tasks-add">Alt Görev Ekle</span>
         </div>
       </div>
-      <div className="sub-tasks-">
-        <img src={TaskScrollBarIcon} />
+      <div className="sub-tasks-dashboard">
+        <img className="sub-tasks-scroll-bar" src={TaskScrollBarIcon} />
         <div>
           {SubTasksData.map((item, index) => {
             return <SubTask key={index} item={item} />;
@@ -47,8 +47,11 @@ function SubTasks() {
       </div>
 
       <div>
-        <a href="#">Tümünü Gör</a>
+        <a href="#" className="see-all-button">
+          Tümünü Gör
+        </a>
       </div>
+     
     </div>
   );
 }
