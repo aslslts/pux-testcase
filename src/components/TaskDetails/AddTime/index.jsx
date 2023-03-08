@@ -21,6 +21,11 @@ function AddTime() {
           <span className="add-time-main-text">Tarih</span>
           <div className="add-time-calendar-button">
             <img src={TaskCalendarIcon} />
+            <input
+              className="add-time-select-text"
+              type="date"
+              placeholder="Tarih seçiniz"
+            ></input>
             <span className="add-time-select-text">Tarih seçiniz</span>
             <img src={TaskDropDownIcon} />
           </div>
@@ -29,11 +34,13 @@ function AddTime() {
           <span className="add-time-main-text">Başlangıç Zamanı</span>
           <div className="add-time-start-finish-button">
             <img src={TaskClockIcon} />
+            <input type="time"></input>
             <span className="add-time-calculate">09.10</span>
           </div>
           <span className="add-time-main-text">Bitiş Zamanı</span>
           <div className="add-time-start-finish-button">
             <img src={TaskClockIcon} />
+            <input type="time"></input>
             <span className="add-time-calculate">09.50</span>
           </div>
         </div>
@@ -44,7 +51,11 @@ function AddTime() {
         <div className="add-time-description">
           <span className="add-time-main-text">Açıklama</span>
           <div className="add-time-note-button">
-            <span className="add-time-note-text">Not Yazınız</span>
+            <input
+              className="add-time-note-text"
+              type="text"
+              placeholder="Not Yazınız"
+            />
           </div>
         </div>
         <div className="add-time-add-button">
