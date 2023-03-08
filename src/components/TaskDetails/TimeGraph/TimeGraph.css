@@ -1,3 +1,71 @@
 .time-graph-container {
+  background: #ffffff;
+  margin-left: 20px;
+}
+.time-graph-ps-container {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.time-graph-progress-status {
+  display: flex;
+  flex-direction: column;
+}
+.progress-status-total {
+  display: flex;
+  justify-content: space-between;
+  min-width: 131px;
+}
+.progress-status-progression {
+  display: flex;
+  justify-content: space-between;
+  min-width: 131px;
+}
+.time-graph-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #212121;
+  margin-bottom: 33px;
+}
+.progress-status-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 135%;
+  color: #212121;
+}
+.progress-status-total {
+  display: flex;
+}
+.ps-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 135%;
+}
+.total-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #757575;
+}
+
+.hour-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5f3cf7;
+}
+.time-graph-pie-icon {
+  width: 79px;
+  height: 79px;
 }
