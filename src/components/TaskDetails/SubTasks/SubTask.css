@@ -1,17 +1,19 @@
 .sub-task-container {
+  position: relative;
   display: flex;
   background: #ffffff;
   border: 0.5px solid #bdbdbd;
   border-radius: 8px;
   width: 298px;
   height: 84px;
-  left: 45px;
-  top: 223px;
+  margin-bottom: 14px;
 }
 
 .sub-task-header {
   display: flex;
   flex-direction: column;
+  margin-top: 12px;
+  margin-left: 12px;
 }
 .sub-task-title {
   font-family: "Lato";
@@ -39,6 +41,7 @@
   color: #000000;
 }
 .task-up-right-icon {
-  width: 12px;
-  height: 12px;
+  position: absolute;
+  top: 17px;
+  right: 14px;
 }

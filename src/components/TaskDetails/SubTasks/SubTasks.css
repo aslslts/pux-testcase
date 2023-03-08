@@ -1,7 +1,5 @@
 .sub-tasks-container {
   margin-left: 20px;
-  margin-top: 9px;
-  margin-right: 29px;
 }
 
 .sub-tasks-dashboard {
@@ -11,6 +9,8 @@
 .sub-tasks {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  margin-left: 10px;
 }
 .sub-tasks-text {
   font-family: "Lato";
@@ -47,7 +47,7 @@
   left: 20px;
   top: 208px;
   color: rgba(135, 103, 250, 1);
-  margin-top: -33px;
+  margin-top: -34px;
 }
 .see-all-button {
   font-family: "Lato";
