@@ -11,8 +11,6 @@ node_modules
 dist
 dist-ssr
 *.local
-homepage.png
-homepage-overlay.png
 
 # Editor directories and files
 .vscode/*
