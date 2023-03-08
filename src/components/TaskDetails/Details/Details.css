@@ -5,12 +5,16 @@
 .details-dashboard {
   display: grid;
   grid-template-columns: 323px 1fr 328px;
-  gap: 24px;
+  gap: 29px;
 }
 .details {
+  position: relative;
   display: flex;
   flex-direction: column;
   margin-top: 16px;
+}
+.details-description {
+  margin-bottom: 6.5px;
 }
 .details-descriptions {
   font-family: "Lato";
@@ -40,6 +44,9 @@
   align-items: center;
   color: #212121;
 }
+.details-tags {
+  margin-bottom: 36px;
+}
 .details-tag-text {
   font-family: "Lato";
   font-style: normal;
@@ -48,6 +55,10 @@
   line-height: 17px;
   color: #757575;
 }
+.details-calendar-container {
+  display: flex;
+  margin-bottom: 33px;
+}
 .details-calendar {
   font-family: "Lato";
   font-style: normal;
@@ -55,6 +66,12 @@
   font-size: 14px;
   line-height: 17px;
   color: #212121;
+}
+.details-hour-container {
+  margin-bottom: 24px;
+}
+.details-hour-main {
+  display: flex;
 }
 .details-hour {
   font-family: "Lato";
@@ -65,7 +82,20 @@
   display: flex;
   align-items: center;
   color: #212121;
+  margin-right: 28px;
 }
+.details-minute {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #212121;
+  margin-right: 28px;
+}
+
 .details-person-text {
   font-family: "Lato";
   font-style: normal;
@@ -75,8 +105,26 @@
   display: flex;
   align-items: center;
   color: #212121;
+  margin-left: 8px;
 }
 .details-person-edit {
+  display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  margin-bottom: 23px;
+}
+
+.mb-17 {
+  margin-bottom: 17px;
+}
+.details-scrollbar {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.details-priority {
+  margin-bottom: 23.5px;
+}
+.details-calendar-main {
+  margin-right: 260px;
 }
